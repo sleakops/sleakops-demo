@@ -3,7 +3,7 @@ from django.utils.html import format_html
 
 from django.contrib import admin
 
-admin.site.site_header = "Backoffice Administration"
+admin.site.site_header = "Administrador interno"
 admin.site.site_title = "Backoffice Administration"
 admin.site.index_title = "Welcome to Backoffice Administration"
 

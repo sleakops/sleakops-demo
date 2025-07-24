@@ -93,3 +93,7 @@ Se necesita la variable de entorno `DJANGO_AWS_STORAGE_BUCKET_NAME` y `DJANGO_AW
 python manage.py dumpdata --natural-foreign --indent=4 cart.Cart cart.CartItem order.Order order.OrderItem payment.Payment product.Product product.Category user.User > core/fixtures/initial_data.json
 ```
 
+## Guia completa para desplegar el proyecto usando Sleakops
+
+Si quieres ver una guia completa para desplegar el proyecto usando Sleakops, puedes visitar el siguiente enlace:
+[Guia de despliegue](https://docs.sleakops.com/es/quickstart/django_celery)

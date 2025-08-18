@@ -10,7 +10,7 @@ django-environ==0.11.2 # Cargar variables de entorno
 django-storages==1.14.2 # Manejar archivos estaticos y media en un bucket de AWS
 
 psycopg2==2.9.9 # Conexion con Postgres
-pymysql==1.1.1 # Conexion con Mysql
+mysqlclient==2.2.7 # Conexion con Mysql
 
 django-crispy-forms==2.4
 crispy-bootstrap5==2025.6

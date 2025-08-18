@@ -1,5 +1,5 @@
 import os
-
+import json
 from celery import Celery
 from django.conf import settings
 

@@ -32,4 +32,4 @@ jobs:
     - name: Run SleakOps deploy
       env:
         SLEAKOPS_KEY: ${{ secrets.SLEAKOPS_KEY }}
-      run: sleakops deploy -p sleakops-demo -e workshop -w
+      run: sleakops deploy -p sleakops-demo -e demo -w

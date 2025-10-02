@@ -27,7 +27,7 @@ jobs:
     - name: Run SleakOps build
       env:
         SLEAKOPS_KEY: ${{ secrets.SLEAKOPS_KEY }}
-      run: sleakops build -p sleakops-demo -b main -e demo --prov aws-demo -w
+      run: sleakops build -p sleakops-demo -b main -e demo -prov aws-demo -w
 
     - name: Run SleakOps deploy
       env:
